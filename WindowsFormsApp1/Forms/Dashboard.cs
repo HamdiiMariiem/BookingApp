@@ -13,20 +13,20 @@ using System.Threading;
 
 namespace WindowsFormsApp1.Forms
 {
-    public partial class Configuration : DevExpress.XtraEditors.XtraForm
+    public partial class Dashboard : DevExpress.XtraEditors.XtraForm
     {
         public WindowsFormsApp1.Model.ApplicationContext db;
-        private static Configuration _Configuration;
-        public static Configuration InstanceBooking
+        private static Dashboard _Dashboard;
+        public static Dashboard InstanceBooking
         {
             get
             {
-                if (_Configuration == null)
-                    _Configuration = new Configuration();
-                return _Configuration;
+                if (_Dashboard == null)
+                    _Dashboard = new Dashboard();
+                return _Dashboard;
             }
         }
-        public Configuration()
+        public Dashboard()
         {
             InitializeComponent();
             db = new Model.ApplicationContext();
@@ -38,9 +38,9 @@ namespace WindowsFormsApp1.Forms
 
         }
 
-        private void Configuration_FormClosing(object sender, FormClosingEventArgs e)
+        private void Dashboard_FormClosing(object sender, FormClosingEventArgs e)
         {
-            _Configuration = null;
+            _Dashboard = null;
         }
 
         private void BtnBooking_Click(object sender, EventArgs e)

@@ -72,35 +72,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\Booking.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Booking.Designer.cs">
-      <DependentUpon>Booking.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\Configuration.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Configuration.Designer.cs">
       <DependentUpon>Configuration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FrmEmployeur.cs">
+    <Compile Include="Forms\Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FrmEmployeur.Designer.cs">
-      <DependentUpon>FrmEmployeur.cs</DependentUpon>
+    <Compile Include="Forms\Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FrmUtilisateur.cs">
+    <Compile Include="Forms\Booking.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FrmUtilisateur.Designer.cs">
-      <DependentUpon>FrmUtilisateur.cs</DependentUpon>
+    <Compile Include="Forms\Booking.Designer.cs">
+      <DependentUpon>Booking.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\BookingInterface.cs">
+    <Compile Include="Forms\Report.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\BookingInterface.Designer.cs">
-      <DependentUpon>BookingInterface.cs</DependentUpon>
+    <Compile Include="Forms\Report.Designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmWaitForm1.cs">
       <SubType>Form</SubType>
@@ -121,17 +115,17 @@
     <Compile Include="Model\Utilisateur.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\Booking.resx">
-      <DependentUpon>Booking.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Configuration.resx">
       <DependentUpon>Configuration.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FrmUtilisateur.resx">
-      <DependentUpon>FrmUtilisateur.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\BookingInterface.resx">
-      <DependentUpon>BookingInterface.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Booking.resx">
+      <DependentUpon>Booking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmWaitForm1.resx">
       <DependentUpon>FrmWaitForm1.cs</DependentUpon>

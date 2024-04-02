@@ -13,45 +13,45 @@ using System.Threading;
 
 namespace WindowsFormsApp1.Forms
 {
-    public partial class BookingInterface : DevExpress.XtraEditors.XtraForm
+    public partial class Report : DevExpress.XtraEditors.XtraForm
     {
         public WindowsFormsApp1.Model.ApplicationContext db;
-        private static BookingInterface _BookingInterface;
-        public static BookingInterface InstanceBooking
+        private static Report _Report;
+        public static Report InstanceBooking
         {
             get
             {
-                if (_BookingInterface == null)
-                    _BookingInterface = new BookingInterface();
-                return _BookingInterface;
+                if (_Report == null)
+                    _Report = new Report();
+                return _Report;
             }
         }
-        public BookingInterface()
+        public Report()
         {
             InitializeComponent();
             db = new Model.ApplicationContext();
         }
 
-     
+
         private void XtraForm1_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void BookingInterface_FormClosing(object sender, FormClosingEventArgs e)
+        private void Report_FormClosing(object sender, FormClosingEventArgs e)
         {
-            _BookingInterface = null;
+            _Report = null;
         }
 
         private void BtnBooking_Click(object sender, EventArgs e)
         {
-            Formshow(WindowsFormsApp1.Forms.BookingInterface.InstanceBooking);
+            Formshow(WindowsFormsApp1.Forms.Booking.InstanceBooking);
+            this.Close();
         }
 
         private void BtnDashboard_Click(object sender, EventArgs e)
         {
-            Formshow(WindowsFormsApp1.Forms.Configuration.InstanceBooking);
-            this.Close();
+             Formshow(WindowsFormsApp1.Forms.Dashboard.InstanceBooking);
         }
         public void Formshow(Form frm)
         {
@@ -87,7 +87,7 @@ namespace WindowsFormsApp1.Forms
 
         private void BtnReport_Click(object sender, EventArgs e)
         {
-            Formshow(WindowsFormsApp1.Forms.Configuration.InstanceBooking);
+            Formshow(WindowsFormsApp1.Forms.Report.InstanceBooking);
         }
 
         private void BtnConfiguration_Click(object sender, EventArgs e)
