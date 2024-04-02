@@ -705,7 +705,7 @@
             this.BtnCategories.ItemAppearance.Normal.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCategories.ItemAppearance.Normal.Options.UseFont = true;
             this.BtnCategories.Name = "BtnCategories";
-            this.BtnCategories.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.BtnCategories_ItemClick);
+
             // 
             // barButtonItem10
             // 
@@ -722,7 +722,7 @@
             this.barButtonItem10.ItemAppearance.Pressed.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barButtonItem10.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem10.Name = "barButtonItem10";
-            this.barButtonItem10.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem10_ItemClick);
+
             // 
             // BarCode
             // 
@@ -733,8 +733,7 @@
             this.BarCode.ItemAppearance.Normal.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BarCode.ItemAppearance.Normal.Options.UseFont = true;
             this.BarCode.Name = "BarCode";
-            this.BarCode.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem12_ItemClick);
-            // 
+    
             // btnStock
             // 
             this.btnStock.Caption = "Stock";
@@ -744,7 +743,7 @@
             this.btnStock.ItemAppearance.Normal.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStock.ItemAppearance.Normal.Options.UseFont = true;
             this.btnStock.Name = "btnStock";
-            this.btnStock.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnStock_ItemClick);
+   
             // 
             // barBtnListeCategories
             // 
@@ -759,7 +758,7 @@
             this.barBtnListeCategories.ItemAppearance.Pressed.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barBtnListeCategories.ItemAppearance.Pressed.Options.UseFont = true;
             this.barBtnListeCategories.Name = "barBtnListeCategories";
-            this.barBtnListeCategories.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barBtnListeCategories_ItemClick);
+    
             // 
             // barBtnAddBonSortie
             // 
@@ -774,7 +773,7 @@
             this.barBtnAddBonSortie.ItemAppearance.Pressed.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barBtnAddBonSortie.ItemAppearance.Pressed.Options.UseFont = true;
             this.barBtnAddBonSortie.Name = "barBtnAddBonSortie";
-            this.barBtnAddBonSortie.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barBtnAddBonSortie_ItemClick_1);
+      
             // 
             // barBtnListeBonSorties
             // 
@@ -789,7 +788,7 @@
             this.barBtnListeBonSorties.ItemAppearance.Pressed.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barBtnListeBonSorties.ItemAppearance.Pressed.Options.UseFont = true;
             this.barBtnListeBonSorties.Name = "barBtnListeBonSorties";
-            this.barBtnListeBonSorties.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barBtnListeBonSorties_ItemClick);
+
             // 
             // barButtonItem12
             // 
@@ -800,7 +799,7 @@
             this.barButtonItem12.ItemAppearance.Normal.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barButtonItem12.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem12.Name = "barButtonItem12";
-            this.barButtonItem12.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem12_ItemClick_1);
+
             // 
             // barBtnGestionUtilisateur
             // 
@@ -815,7 +814,7 @@
             this.barBtnGestionUtilisateur.ItemAppearance.Pressed.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barBtnGestionUtilisateur.ItemAppearance.Pressed.Options.UseFont = true;
             this.barBtnGestionUtilisateur.Name = "barBtnGestionUtilisateur";
-            this.barBtnGestionUtilisateur.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barBtnGestionUtilisateur_ItemClick);
+
             // 
             // barBtnEmployeur
             // 
@@ -830,7 +829,7 @@
             this.barBtnEmployeur.ItemAppearance.Pressed.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barBtnEmployeur.ItemAppearance.Pressed.Options.UseFont = true;
             this.barBtnEmployeur.Name = "barBtnEmployeur";
-            this.barBtnEmployeur.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barBtnEmployeur_ItemClick);
+  
             // 
             // barButtonItem13
             // 
@@ -841,7 +840,7 @@
             this.barButtonItem13.ItemAppearance.Normal.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barButtonItem13.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem13.Name = "barButtonItem13";
-            this.barButtonItem13.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem13_ItemClick);
+
             // 
             // Empl
             // 

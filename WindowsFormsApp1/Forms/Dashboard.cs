@@ -52,6 +52,7 @@ namespace WindowsFormsApp1.Forms
         private void BtnDashboard_Click(object sender, EventArgs e)
         {
             Formshow(WindowsFormsApp1.Forms.Dashboard.InstanceBooking);
+            this.Close();
         }
         public void Formshow(Form frm)
         {
@@ -88,11 +89,13 @@ namespace WindowsFormsApp1.Forms
         private void BtnReport_Click(object sender, EventArgs e)
         {
             Formshow(WindowsFormsApp1.Forms.Report.InstanceBooking);
+            this.Close();
         }
 
         private void BtnConfiguration_Click(object sender, EventArgs e)
         {
             Formshow(WindowsFormsApp1.Forms.Configuration.InstanceBooking);
+            this.Close();
         }
     }
 }
