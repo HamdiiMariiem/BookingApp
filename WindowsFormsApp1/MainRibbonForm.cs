@@ -67,7 +67,7 @@ namespace WindowsFormsApp1
         }
         private void MainRibbonForm_Load(object sender, EventArgs e)
         {
-            Formshow(WindowsFormsApp1.Forms.FrmAccueil.InstanceFrmAccueil);
+            Formshow(WindowsFormsApp1.Booking.InstanceBooking);
         }
 
         private void BtnCategories_ItemClick(object sender, ItemClickEventArgs e)
