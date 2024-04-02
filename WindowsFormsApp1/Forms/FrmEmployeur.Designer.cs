@@ -173,7 +173,7 @@
             // 
             this.BtnEnregistrer.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEnregistrer.Appearance.Options.UseFont = true;
-            this.BtnEnregistrer.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnEnregistrer.ImageOptions.Image")));
+     
             this.BtnEnregistrer.Location = new System.Drawing.Point(12, 84);
             this.BtnEnregistrer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnEnregistrer.Name = "BtnEnregistrer";
@@ -359,7 +359,7 @@
             // btnsupp
             // 
             this.btnsupp.AutoHeight = false;
-            editorButtonImageOptions1.Image = ((System.Drawing.Image)(resources.GetObject("editorButtonImageOptions1.Image")));
+    
             this.btnsupp.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions1, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
             this.btnsupp.Name = "btnsupp";
@@ -381,7 +381,7 @@
             // btnUpdate
             // 
             this.btnUpdate.AutoHeight = false;
-            editorButtonImageOptions2.Image = ((System.Drawing.Image)(resources.GetObject("editorButtonImageOptions2.Image")));
+          
             this.btnUpdate.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions2, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
             this.btnUpdate.Name = "btnUpdate";
