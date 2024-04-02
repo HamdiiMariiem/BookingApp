@@ -90,6 +90,12 @@
     <Compile Include="Forms\FrmUtilisateur.Designer.cs">
       <DependentUpon>FrmUtilisateur.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\BookingInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BookingInterface.Designer.cs">
+      <DependentUpon>BookingInterface.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmWaitForm1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +120,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmUtilisateur.resx">
       <DependentUpon>FrmUtilisateur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BookingInterface.resx">
+      <DependentUpon>BookingInterface.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmWaitForm1.resx">
       <DependentUpon>FrmWaitForm1.cs</DependentUpon>
